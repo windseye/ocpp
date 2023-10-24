@@ -119,3 +119,5 @@ Grizzl-E firmware has a few OCPP-compliance defects, including responding to cer
 The workaround consists of:
 - checking the *Skip OCPP schema validation* checkbox during OCPP server configuration
 - commenting-out several lines in `/config/custom_components/ocpp/api.py` and adding a few default values to the OCPP server source code. Details are in this [comment in Issue #442](https://github.com/lbbrhzn/ocpp/issues/442#issuecomment-1237651231)
+
+NOTE: United Chargers no longer uses ChargeLabs firmware. The current version is GWM-07.020-03 for the wi-fi and GCW-10.18-05.7 for the power board. Details regarding this firmware are found at https://github.com/lbbrhzn/ocpp/issues/899.
